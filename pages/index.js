@@ -87,7 +87,7 @@ const SecondContainer = styled.div`
   background: #4a0379;
   z-index: 6;
   position: absolute;
-  top: 100vh;
+  top: 80vh;
 `;
 
 export default function Home() {
