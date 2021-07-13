@@ -4,7 +4,7 @@ import Rellax from 'rellax';
 
 const Container = styled.div`
   width: 100vw;
-  height: 100vh;
+  height: -webkit-fill-available;
   overflow-x: hidden;
 
   .background {
@@ -65,6 +65,7 @@ const Container = styled.div`
       height: 80%;
     }
     @media screen and (max-width: 500px) {
+      top: 0;
       background-size: cover;
       height: 60%;
     }

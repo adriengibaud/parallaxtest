@@ -38,9 +38,7 @@ html, body, div, span, applet, object, iframe,
   body {
     line-height: 1;
     overflow-x: hidden;
-    background: var(--color-background);
-    background-color: var(--color-background);
-    background-image: url('/backgroundPattern.png');
+  background: #4a0379;
     width: 100vw;
     min-height: 100vh;
   min-height: -webkit-fill-available;
