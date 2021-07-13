@@ -65,7 +65,6 @@ const Container = styled.div`
       height: 80%;
     }
     @media screen and (max-width: 500px) {
-      top: -10%;
       background-size: cover;
       height: 60%;
     }
